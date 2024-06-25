@@ -1,0 +1,49 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "gradosFahrenheit",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "ConvertFahrenheitToCelsiusIntent",
+          "samples": [
+            "What is {gradosFahrenheit} degrees Fahrenheit in Celsius"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "angy converter"
+    }
+  }
+}
